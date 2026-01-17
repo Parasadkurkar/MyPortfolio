@@ -3,7 +3,7 @@ import { Trophy, Users, Flag, Medal } from 'lucide-react';
 
 export const SOCIAL_LINKS = {
   github: "https://github.com/Parasadkurkar",
-  linkedin: "https://www.linkedin.com/in/paras-adkurkar/",
+  linkedin: "www.linkedin.com/in/paras-adkurkar-56925325b",
   email: "https://mail.google.com/mail/?view=cm&fs=1&to=parasadkurkar37@gmail.com"
 };
 
@@ -20,11 +20,11 @@ export const ABOUT_TEXT = "I am a Computer Engineer and technology enthusiast wi
 
 export const EXPERIENCE_DATA: ExperienceItem[] = [
   {
-    title: "Website Development Intern",
-    company: "CODTECHIT SOLUTION",
-    period: "Jun 2024 – Jul 2024",
+    title: "Artificial Intelligence Intern",
+    company: "SCPL",
+    period: "DEC 2025 – Present",
     description: [
-"Successfully completed a one-month internship focused on web development. Gained hands-on experience with front-end and back-end technologies. Contributed to building responsive web pages and enhancing UI/UX. Worked with technologies like HTML, CSS, JavaScript, and possibly frameworks ( React, Bootstrap). Understood real-time project workflow. Collaborated with a team of developers and learned best practices in coding and version control. Developed problem-solving skills by tackling real-world web development challenges."
+      "Working on Python-based AI and automation solutions to address real-world business use cases. Responsibilities include developing intelligent automation scripts, integrating machine learning models, handling structured and unstructured data, and optimizing workflows to improve efficiency and accuracy. Gaining hands-on experience with AI-driven problem solving and end-to-end automation pipelines."
     ]
   }
 ];
@@ -36,7 +36,7 @@ export const PROJECTS_DATA: ProjectItem[] = [
     description: "A full-stack MERN web application that helps users locate nearby certified e-waste disposal and recycling centers using interactive maps, educational tools, and smart prediction features.",
     tags: ["React.js 15", "Node.js", "MongoDB", "tailwindcss"],
     image: "/images/e-seva.png",
-    liveUrl: "https://miniproject-10-frontend.onrender.com" 
+    liveUrl: "https://miniproject-10-frontend.onrender.com"
   },
   {
     title: "Edemy LMS",
