@@ -19,7 +19,7 @@ This repository is public so others can explore the code —
 
 ### Clone the repository
 ```bash
-git clone https://github.com/shreyaspathe/portfolio.git
+git clone https://github.com/ParasAdkurkar/MyPortfolio.git
 cd portfolio
 ```
 
