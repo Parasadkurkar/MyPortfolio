@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { ChevronDown, Github, Linkedin } from 'lucide-react';
-import LightRays from './LightRays';
+import LightRays from './Lightrays1';
 import Magnet from './Magnet';
 import { SOCIAL_LINKS } from '../constants';
 import { Link } from 'react-scroll';
@@ -50,7 +50,7 @@ const Hero: React.FC = () => {
 
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white tracking-tight mb-4 mix-blend-overlay">
              <span className="inline-block text-slate-400 mr-3 md:mr-5 font-light">I am</span>
-             <span className="inline-block animate-flicker" style={{ animationDelay: '1.8s' }}>Shreyas Pathe</span>
+             <span className="inline-block animate-flicker" style={{ animationDelay: '1.8s' }}>Paras Adkurkar</span>
           </h1>
 
           <div className={`h-px w-full max-w-md bg-gradient-to-r from-transparent via-cyber-primary/50 to-transparent mx-auto my-8 transition-transform duration-1000 ${lightsOn ? 'scale-x-100' : 'scale-x-0'}`} />
@@ -62,7 +62,7 @@ const Hero: React.FC = () => {
             className="flex flex-col items-center gap-2"
           >
             <h2 className="text-xl md:text-2xl text-slate-300 font-light">
-              IT Engineer <span className="text-cyber-text mx-2">/</span> Full Stack Developer (MERN Stack)
+              Computer Engineer <span className="text-cyber-text mx-2">/</span> Full Stack Developer (MERN Stack)
             </h2>
             <p className="text-slate-500 text-sm md:text-base max-w-lg mt-4 leading-relaxed">
               Building secure, scalable, and majestic digital experiences.

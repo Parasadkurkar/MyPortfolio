@@ -7,7 +7,7 @@ const Footer: React.FC = () => {
   return (
     <footer className="bg-cyber-dark py-12 border-t border-white/5">
       <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-4">
-        <span className="font-mono text-slate-500 text-sm">Designed & Built by Shreyas Pathe</span>
+        <span className="font-mono text-slate-500 text-sm">Designed & Built by Paras Adkurkar</span>
         
         <div className="flex items-center gap-6">
              <a href={SOCIAL_LINKS.github} target="_blank" rel="noreferrer" className="text-slate-500 hover:text-cyber-primary transition-colors">

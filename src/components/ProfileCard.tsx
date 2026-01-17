@@ -13,8 +13,8 @@ const ProfileCard: React.FC = () => {
         <div className="relative h-[400px] w-full overflow-hidden">
           <div className="absolute inset-0 bg-cyber-dark/20 z-10 group-hover:bg-transparent transition-colors duration-500" />
           <img 
-            src="/images/profile-image.jpg" 
-            alt="Shreyas Pathe" 
+            src="/images/paras.jpeg" 
+            alt="Paras Adkurkar" 
             className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-110 group-hover:filter-none filter grayscale"
           />
           
@@ -27,7 +27,7 @@ const ProfileCard: React.FC = () => {
           
           {/* Header */}
           <div className="mb-4">
-            <h3 className="text-2xl font-bold text-white mb-1 group-hover:text-cyber-primary transition-colors">Shreyas Pathe</h3>
+            <h3 className="text-2xl font-bold text-white mb-1 group-hover:text-cyber-primary transition-colors">Paras Adkurkar</h3>
             <div className="flex items-center gap-2 text-sm font-mono text-cyber-primary">
               <Terminal className="w-3 h-3" />
               <span>Full Stack Developer</span>

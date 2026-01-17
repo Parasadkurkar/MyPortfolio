@@ -59,7 +59,7 @@ const Navbar: React.FC = () => {
               whileHover={{ scale: 1.02 }}
               transition={{ type: "spring", stiffness: 400, damping: 17 }}
             >
-              Shreyas_Pathe
+              Paras_Adkurkar
             </motion.span>
             <motion.span 
               className="font-mono text-2xl md:text-3xl text-cyber-primary font-bold"

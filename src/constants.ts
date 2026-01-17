@@ -2,9 +2,9 @@ import type { NavItem, ExperienceItem, ProjectItem, SkillCategory, Certification
 import { Trophy, Users, Flag, Medal } from 'lucide-react';
 
 export const SOCIAL_LINKS = {
-  github: "https://github.com/ShreyasPathe",
-  linkedin: "https://www.linkedin.com/in/shreyas-pathe/",
-  email: "https://mail.google.com/mail/?view=cm&fs=1&to=patheshreyas7@gmail.com"
+  github: "https://github.com/Parasadkurkar",
+  linkedin: "https://www.linkedin.com/in/paras-adkurkar/",
+  email: "https://mail.google.com/mail/?view=cm&fs=1&to=parasadkurkar37@gmail.com"
 };
 
 export const NAV_ITEMS: NavItem[] = [
@@ -16,29 +16,27 @@ export const NAV_ITEMS: NavItem[] = [
   { label: 'Contact', to: 'contact' },
 ];
 
-export const ABOUT_TEXT = "I am a technology enthusiast and an IT Engineer with a strong passion for building modern, scalable, and user-friendly digital experiences. I specialize in full stack development using the MERN stack and love crafting seamless, tech-driven solutions with a focus on performance, design, and usability. I love building conversion-friendly websites and have extensive experience building Shopify and WordPress based solutions alongside custom web applications. I enjoy working on challenging problems, learning new technologies, and creating products that make an impact.";
+export const ABOUT_TEXT = "I am a Computer Engineer and technology enthusiast with a strong passion for building modern, scalable, and user-friendly digital experiences. I specialize in full stack development using the MERN stack, crafting robust solutions with a focus on performance, system architecture, and clean code. My expertise lies in developing custom web applications that bridge the gap between complex backend logic and intuitive frontend design. I enjoy working on challenging engineering problems and creating software products that make a real impact.";
 
 export const EXPERIENCE_DATA: ExperienceItem[] = [
   {
     title: "Website Development Intern",
-    company: "The Work Journals",
-    period: "Aug 2025 – Nov 2025",
+    company: "CODTECHIT SOLUTION",
+    period: "Jun 2024 – Jul 2024",
     description: [
-      "Built and launched 6+ production-ready websites leveraging PHP, Shopify Liquid, and WordPress, with complete ownership of development, deployment, and hosting infrastructure.",
-      "Delivered end-to-end web solutions for global clients, including BareNue (women’s lingerie brand, ₹1L+ monthly sales via website), KlearProp (Mumbai-based brokerage, 10,000+ website visitors, multiple leads converted via website), TheTurquoiseWeddings (Canada-based complete wedding planners), and VJCC Culinary Arts (Dubai-based culinary institute), from concept to live deployment.",
-      "Collaborated directly with clients for requirement gathering, UI/UX refinement, and performance tuning, providing ongoing technical support and issue resolution to ensure scalability, reliability, and 100% client satisfaction."
+"Successfully completed a one-month internship focused on web development. Gained hands-on experience with front-end and back-end technologies. Contributed to building responsive web pages and enhancing UI/UX. Worked with technologies like HTML, CSS, JavaScript, and possibly frameworks ( React, Bootstrap). Understood real-time project workflow. Collaborated with a team of developers and learned best practices in coding and version control. Developed problem-solving skills by tackling real-world web development challenges."
     ]
   }
 ];
 
 export const PROJECTS_DATA: ProjectItem[] = [
   {
-    title: "AI Finance Dashboard",
-    category: "Next.js & AI",
-    description: "A modern full-stack personal finance dashboard with AI-based receipt scanning via Google Gemini API, secure Auth (Clerk), and dynamic data visualization.",
-    tags: ["Next.js 15", "Supabase", "Gemini AI", "Inngest"],
-    image: "/images/financeai64.png",
-    liveUrl: "https://financeai64.xyz" 
+    title: "E-Waste Facility Locator",
+    category: "React.js & Node.js",
+    description: "A full-stack MERN web application that helps users locate nearby certified e-waste disposal and recycling centers using interactive maps, educational tools, and smart prediction features.",
+    tags: ["React.js 15", "Node.js", "MongoDB", "tailwindcss"],
+    image: "/images/e-seva.png",
+    liveUrl: "https://miniproject-10-frontend.onrender.com" 
   },
   {
     title: "Edemy LMS",
@@ -96,10 +94,6 @@ export const SKILLS_DATA: SkillCategory[] = [
     skills: ["JavaScript (ES6+)", "Python", "HTML5", "CSS3", "C++", "SQL"]
   },
   {
-    title: "CMS & E-Commerce",
-    skills: ["WordPress", "Shopify Liquid", "WooCommerce", "PHP"]
-  },
-  {
     title: "Backend & Databases",
     skills: ["MongoDB", "Express.js", "Prisma", "Firebase", "REST APIs", "GraphQL"]
   },
@@ -113,7 +107,7 @@ export const SKILLS_DATA: SkillCategory[] = [
   },
   {
     title: "Tools & Management",
-    skills: ["JIRA", "Git & GitHub", "Postman", "Agile/Scrum", "Figma", "VS Code"]
+    skills: ["Git & GitHub", "Postman", "Agile/Scrum", "Figma", "VS Code"]
   }
 ];
 
@@ -125,45 +119,38 @@ export type CertificationItemExtended = CertificationItem & {
 
 export const CERTIFICATIONS_DATA: CertificationItemExtended[] = [
   {
-    name: "Full Stack Web Developer Bootcamp",
-    issuer: "GeeksforGeeks",
-    image: "https://cdn.simpleicons.org/geeksforgeeks/2F8D46",
-    credentialUrl: "https://media.geeksforgeeks.org/courses/certificates/8b0c2ce2a23613a7d5c82ec72952edf1.pdf",
+    name: "Javascript Basics",
+    issuer: "HackeRank",
+    image: "https://cdn.simpleicons.org/hackerrank/2F8D46",
+    credentialUrl: "/images/certificates/javaScript basic.pdf",
     logoBgColor: 'white'
   },
   {
-    name: "Data Fundamentals",
-    issuer: "IBM",
-    image: "https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg",
-    credentialUrl: "https://www.credly.com/badges/de74ace5-1096-4290-9b80-0940520b0ee2/linked_in_profile",
+    name: "SQL Advanced",
+    issuer: "HackerRank",
+    image: "https://cdn.simpleicons.org/hackerrank/2F8D46",
+    credentialUrl: "/images/certificates/SQL-Advanced.pdf",
     logoBgColor: 'white'
   },
   {
-    name: "Automation Testing",
-    issuer: "GeeksforGeeks",
-    image: "https://cdn.simpleicons.org/geeksforgeeks/2F8D46",
-    credentialUrl: "https://media.geeksforgeeks.org/courses/certificates/a4eccd5c1ad05736b8470949420ae595.pdf",
+    name: "Programing Fundamentals using Python",
+    issuer: "Infosys Springboard",
+    image: "https://cdn.simpleicons.org/infosys/2F8D46",
+    credentialUrl: "images/certificates/infosys.jpg",
     logoBgColor: 'white'
   },
   {
-    name: "AWS Knowledge: Cloud Essentials",
-    issuer: "AWS",
-    image: "https://img.icons8.com/color/480/amazon-web-services.png",
-    credentialUrl: "https://www.credly.com/badges/f120eb6b-fb5f-4041-ad9b-f9157708b024/linked_in_profile",
+    name: "Cybersecurity Foundations",
+    issuer: "TechMahindra",
+    image: "https://upload.wikimedia.org/wikipedia/commons/3/34/Tech_Mahindra_New_Logo.svg",
+    credentialUrl: "images/certificates/cyber.jpg",
     logoBgColor: 'white'
   },
   {
-    name: "Project Management Foundations",
-    issuer: "LinkedIn",
-    image: "https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png",
-    credentialUrl: "https://www.linkedin.com/learning/certificates/95717d386dce390fcefc23e95aa33757297876cbe5382e100e2d429e8502f55c",
-    logoBgColor: 'white'
-  },
-  {
-    name: "Business Analysis & Process Management",
-    issuer: "Coursera",
-    image: "https://cdn.simpleicons.org/coursera/0056D2",
-    credentialUrl: "https://www.coursera.org/account/accomplishments/verify/U8R8O8PBK6ND",
+    name: "Build With India Competition Certificate",
+    issuer: "HAck WITH INDIA",
+    image: "https://www.hackwithindia.in/Logo/HWI%20Black.svg",
+    credentialUrl: "images/certificates/buildwindia.jpg",
     logoBgColor: 'white'
   }
 ];
