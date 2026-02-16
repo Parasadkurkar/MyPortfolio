@@ -47,12 +47,12 @@ export const PROJECTS_DATA: ProjectItem[] = [
     liveUrl: "https://lms-edemy-8xy7.vercel.app"
   },
   {
-    title: "BareNue",
-    category: "Shopify",
-    description: "Women's lingerie brand platform driving ₹1L+ monthly sales. Built with custom Shopify Liquid modules for a seamless shopping experience.",
-    tags: ["Shopify", "Liquid", "E-Commerce"],
-    image: "/images/barenue.png",
-    liveUrl: "https://barenue.in"
+    title: "MedXpert-Ecommerce-website",
+    category: "MERN Stack",
+    description: "Developed a full-stack medicine delivery platform using MongoDB, Express.js, React.js, and Node.js. The application enables users to browse medicines, upload prescriptions, place orders, and track deliveries. Implemented secure authentication, RESTful APIs, cart management, and admin dashboard for inventory and order management. Designed responsive UI for seamless user experience.",
+    tags: ["React", "node.js", "MongoDB"],
+    image: "/images/Medxpert.png",
+    liveUrl: "https://medxpert-ecommerce.vercel.app"
   },
   {
     title: "KlearProp",
